@@ -1,0 +1,14 @@
+html {
+    background: darkgray;
+}
+body {
+    text-align: center;
+}
+
+title {
+    background-color: blue;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+}
