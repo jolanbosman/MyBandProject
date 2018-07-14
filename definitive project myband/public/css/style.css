@@ -1,0 +1,157 @@
+html {
+    background: white;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url("../images/wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+title {
+    background-color: blue;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(66, 112, 96)
+}
+
+.navbar a {
+    float: left;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    color: white;
+    display: block;
+    margin-left: 1em;
+    margin-top: 1.1em;
+    text-decoration: none ;
+    opacity: 0.4;
+}
+
+.navbar form {
+    float: right;
+    margin-right: 2em;
+    margin-top: 1.5em;
+}
+
+.navbar a:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.navbar img {
+    height: 85px;
+    width: 110px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.navfooter {
+    background-color: darkgray;
+    margin-top: 50em;
+}
+
+.block1 {
+    background-color: darkgray;
+    opacity: 0.7;
+    margin-top: 15em;
+    height: 20em;
+    width: auto;
+
+}
+.title {
+    float: left;
+    margin-left: 1em;
+    border-bottom: black;
+    border-bottom-width: 1px;
+}
+
+.imagehome {
+    float: right;
+    margin-top: 0.5em;
+    margin-right: 2em;
+    width:500px;
+    height: 300px;
+}
+
+.inlogform {
+    padding-top: 20px;
+    max-width: 160px;
+    margin: 0 auto;
+}
+
+.inlogform input{
+    width: 100%;
+    display: block;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.block1 p {
+    text-align: left;
+    padding-top: 8em;
+    padding-left: 2em;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.block2 {
+    background-color: darkgray;
+    opacity: 0.7;
+    margin-top: 10em;
+    height: 20em;
+    width: auto;
+}
+
+.block2 p {
+    text-align: right;
+    padding-top: 8em;
+    padding-right: 2em;
+}
+
+.imagehome2 {
+    float: left;
+    margin-top: 0.5em;
+    margin-left: 2em;
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+}
+
+.title2 {
+    float: right;
+    margin-right: 1em;
+    border-bottom: black;
+    border-bottom-width: 1px;
+}
+
+.site-content {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #979e73;
+    padding: 40px;
+}
+
+label {
+    display: block;
+}
